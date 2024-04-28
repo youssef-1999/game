@@ -1,0 +1,144 @@
+@media (min-width:100px) and (max-width:1000px) {
+.card
+    {
+      width: 80%;
+      /* height: 300px; */
+      margin: auto;
+      
+    }  
+}
+@media (min-width:501px)  and (max-width:571px) {
+/* .card
+    {
+     background-color: pink;
+      
+    }   */
+}
+
+@media (min-width:570px) and (max-width:699px)
+{
+    
+
+     /* .card
+    {
+        background-color: black;
+    } */
+  
+  
+    .card .card-footer .right span
+    {
+        font-size: 0.4rem;
+
+    }
+   .card .card-footer .left span
+    {
+        font-size: 0.4rem;
+
+    }
+   
+}
+
+
+@media (min-width:700px) and (max-width:890px)
+{
+  
+    
+     /* .card
+    {
+        background-color: red;
+    }
+    .card-footer .right 
+    {
+        background-color: white;
+    }  */
+   .card .card-footer .right span
+    {
+        font-size:0.4rem 
+
+    }
+  .card  .card-footer .left span
+    {
+        font-size:0.4rem 
+
+    }
+    .card-footer 
+    {
+        padding: 0;
+        margin: 0;
+        /* background-color: blue; */
+    }
+    .card-footer .left,
+    .card-footer .right
+    {
+        padding: 0;
+    }
+}
+
+
+@media (min-width:770px) and (max-width:990px)
+{
+   
+   /* .card
+   {
+    background-color: teal;
+    width: 100%;
+   } */
+   .card button
+   {
+    /* background-color: red; */
+    padding: 5px;
+    font-size: 0.5rem;
+   }
+    .card-title p
+    {
+        font-size: 10px;
+    }
+    /* .card-footer 
+    {
+        padding: 0;
+        margin: 0;
+        background-color: red;
+    } */
+    .card-footer .left,
+    .card-footer .right
+    {
+        padding: 0;
+    }
+   .card .card-footer .left span
+    {
+        font-size: 0.3rem;
+
+    }
+   .card .card-footer .right span
+    {
+        font-size: 0.3rem;
+    }
+    
+}
+
+@media (min-width:991px) 
+{
+    /* .card 
+    {
+        background-color: blue;
+    } */
+ 
+    .card-footer 
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .card-footer .left,
+    .card-footer .right
+    {
+        padding: 0;
+    }
+   .card .card-footer .left span
+    {
+        font-size: 0.5rem;
+    }
+   .card .card-footer .right span
+    {
+        font-size: 0.5rem;
+    }
+}
